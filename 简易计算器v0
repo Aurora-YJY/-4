@@ -1,0 +1,10 @@
+include <stdio.h>
+int main() 
+{
+	char str[]="3+4";
+	int right=str[0]-'0';
+  int left=str[2]-'0';
+  int res=right+left;
+	printf("%d\n",res);
+	return 0;
+}
